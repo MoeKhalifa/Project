@@ -17,5 +17,14 @@ fi
 if [[ "${UID} -ne ${UIDTEST}" ]]
 then
 echo "It does not match"
+fi
+
+age='18'
+
+if [[ "${age} -eq '18'" ]]
+then
+echo "You are mature"
+else 
+echo "You are still young"
 exit 1
 fi
